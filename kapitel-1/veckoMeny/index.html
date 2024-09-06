@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeckoMeny</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 80px;
+            background-image: url(./bilder/seamless-pattern-2-1888459168.jpg);
+            background-size: cover;
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-color: #000000;
+        }
+
+        h1 {
+            text-align: center;
+            color: #28a745;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        th {
+            background-color: #28a745;
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+
+        td {
+            background-color: #f9f9f9;
+            padding: 15px;
+            transition: background-color 0.3s;
+        }
+
+        td:hover {
+            background-color: #e9ecef; 
+        }
+
+        img {
+            width: 100%;
+            max-width: 150px;
+            border-radius: 10px; 
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.05); 
+        }
+
+        @media (max-width: 600px) {
+            th, td {
+                display: block;
+                width: 100%;
+            }
+
+            th { 
+                border-bottom: 2px solid #ddd;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>VeckoMeny</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Måndag</th>
+                <th>Tisdag</th>
+                <th>Onsdag</th>
+                <th>Torsdag</th>
+                <th>Fredag</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shopskasallad på korv med bröd</td>
+                <td>Gyrosrulle med pommes frites</td>
+                <td>Friterad snackost med tre smaker</td>
+                <td>Pizzadeg med bakpulver</td>
+                <td>Tre mumsiga röror</td>
+            </tr>
+            <tr>
+                <td>Servera din korv med bröd toppad med shopskasallad. Fint tärnad tomat, gurka och paprika, hackad persilja och smulad vitost. Mums!</td>
+                <td>Gyrosrulle - hur gott? Stek färdig gyroskebab gjord på fläskkött, rulla in i kebabrullebröd tillsammans med nygjorda pommes frites, tomat, lök och feferoni. Och självklart några goda såser, het och mild kebabsås är ett måste. Så gott!</td>
+                <td>Friterade miniostar är goda att servera som tilltugg när du längtar efter något som både är frasigt och mjukt. Den mjuka osten i mitten blir lagom ljummen när du friterar med panko eller ströbröd. Servera med olika sorters tillbehör beroende på vad du är sugen på.</td>
+                <td>Att göra en pizzadeg utan jäst är både snabbt och enkelt. På max femton minuter kan du ha degen klar genom att använda bakpulver istället för jäst. Sen är det bara att toppa med favoritfyllningen och grädda som vanligt.</td>
+                <td>Att dippa grönsaksstavar i olika röror är ett nyttigt, men samtidigt festligt sätt att njuta. Här är tre sorters röror med smak av rökt tofu och röda linser, morot och apelsin samt en klassisk kikärtsröra, det vill säga hummus. Dip it!</td>
+            </tr>
+            <tr>
+                <td><img src="./bilder/1.jpg" alt="korv"></td>
+                <td><img src="./bilder/2.jpg" alt="pommes"></td>
+                <td><img src="./bilder/3.jpg" alt="osten"></td>
+                <td><img src="./bilder/4.jpg" alt="degen"></td>
+                <td><img src="./bilder/5.jpg" alt="gurka"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
