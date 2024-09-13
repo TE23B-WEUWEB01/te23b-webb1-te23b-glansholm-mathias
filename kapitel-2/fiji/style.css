@@ -1,0 +1,62 @@
+body {
+    background-color: aliceblue;
+}
+
+.fullscreen-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(./bilder/tank_on_the_beach.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+h1,
+h2,
+p {
+    font-family: cursive;
+    position: relative;
+    z-index: 1;
+    color: blueviolet;
+    ;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 200px;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.196);
+    background: linear-gradient(to right, blueviolet, rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+h2 {
+    font-size: 50px;
+    text-overflow: ellipsis;
+    background: linear-gradient(to right, rgb(204, 153, 251), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+p {
+    font-size: 40px;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.196);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: aliceblue;
+    padding: 10px;
+    border: 2px solid aqua;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
