@@ -1,0 +1,61 @@
+body {
+    background-image: url(./bilder/f18f7e67517665f2dea88df8ed9f766a-2567056188.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    animation: skibidiBackground 5s infinite alternate;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    color: brown;
+    text-shadow: 4px 4px 8px rgb(255, 0, 0);
+    animation: skibidiShake 1s infinite, glitchEffect 2s infinite; /* Adding a glitch to the shake! */
+}
+
+h2 {
+    color: rgb(0, 255, 213);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    text-align: center;
+    animation: skibidiPulse 2s infinite, glitchEffect 2s infinite; /* Glitchy pulse! */
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    animation: skibidiBounce 3s infinite, glitchEffect 3s infinite; /* Bounce AND glitch, baby! */
+}
+
+
+@keyframes skibidiShake {
+    0% { transform: translate(2px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(1px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 1px) rotate(-1deg); }
+    60% { transform: translate(-3px, 0px) rotate(0deg); }
+    70% { transform: translate(2px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(2px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes skibidiPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+@keyframes skibidiBounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-30px); }
+    60% { transform: translateY(-15px); }
+}
+
