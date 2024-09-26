@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Noto+Sans+Warang+Citi&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Sidans styling */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 5px;
+}
+
+body{
+    background-image: url(./bilder/dinkelscones_24958-1694605485.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffd387d6;
+    padding: 40px;
+    border-radius: 50px;
+    border: 10px solid rgb(255, 235, 205);
+    color: rgb(89, 89, 89);
+    -webkit-text-stroke: 0.8px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-family: "Jacquarda Bastarda 9", system-ui;
+
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: "Noto Sans Warang Citi", system-ui;
+}
+h2{
+    margin-bottom: 15px;
+}
+img{
+
+}
+p{
+    margin: 10px;
+}
+ul{
+    margin-bottom: 15px;
+
+}
+li{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    list-style-type: circle;
+}
