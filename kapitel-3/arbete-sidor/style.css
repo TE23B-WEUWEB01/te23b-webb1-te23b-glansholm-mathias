@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Noto+Sans+Warang+Citi&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* this is thy body */
+body.sida1 {
+    background-image: url(./bilder/1_p.jpg);
+}
+body.sida2 {
+    background-image: url(./bilder/2_p.jpg);
+}
+body.sida3 {
+    background-image: url(./bilder/);
+}
+body.sida4 {
+    background-image: url(./bilder/4_p.jpg);
+}
+body.sida5 {
+    background-image: url(./bilder/5_p.jpg);
+}
+body.sida6 {
+    background-image: url(./bilder/6_p.jpg);
+}
+body
+div{
+    background-color: aliceblue;
+    width: 500px;
+    border: 5px dashed black;
+    margin: auto;
+    margin-top: 300px;
+    padding: 30px;
+}
+
+/* head */
+h1{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+p{
+    font-family: "Jacquarda Bastarda 9", system-ui;
+    font-size: 20px;
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: blueviolet;
+}
