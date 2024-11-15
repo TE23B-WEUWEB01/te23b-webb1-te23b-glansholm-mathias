@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+/* css reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* Grundläggande stil för text */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body { /* För en renare typografi */
+    background-color: aliceblue;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    font-family: 'Arial', sans-serif;
+}
+
+/* Stil för den övergripande behållaren */
+.container {
+    width: 1200px;
+    padding: 70px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Rubriker */
+h1 {
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Doto", sans-serif;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+
+/* Stil för avsnittet om mig */
+.about-me {
+    margin-bottom: 30px;
+    line-height: 1.6; 
+}
+
+/* Stil för bordet */
+.projects {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    width: 33.33%; /* Dela upp i tre lika stora kolumner */
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.imagesAndText:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.4); /* Skala upp bilden vid hover */
+}
+
+/* Footer stil */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #000000;
+}
