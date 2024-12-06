@@ -6,6 +6,8 @@ html {
     box-sizing: inherit;
 }
 
+
+
 body {
     background: linear-gradient(135deg, #e63946, #f1faee, #a8dadc);
     margin: 0;
@@ -23,6 +25,10 @@ h1 {
     border-radius: 10px;
     margin-bottom: 30px;
     text-shadow: 2px 2px #b32d2d;
+}
+img{
+    display: block;
+    margin: auto;
 }
 
 .bar {
